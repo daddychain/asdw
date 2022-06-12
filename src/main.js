@@ -15,7 +15,7 @@ import VueGtag from "vue-gtag"
 
 Vue.use(VueGtag, {
   config: { id: 'G-Z4M6MG706Q' }
-})
+}, router)
 
 Vue.prototype.$axios = axios
 Vue.use(VueClipboard)
