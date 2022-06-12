@@ -1,0 +1,150 @@
+//@import './reset.scss';
+//
+//blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,input,legend,li,ol,p,pre,select,span,td,textarea,th,ul {
+//  margin: 0;
+//  padding: 0;
+//  box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  -webkit-box-sizing: border-box;
+//  transition-duration: 0s
+//}
+//
+//html {
+//  color: #000;
+//  -webkit-text-size-adjust: none
+//}
+//
+//fieldset,img {
+//  border: 0
+//}
+//
+//a,img {
+//  backface-visibility: hidden;
+//  -webkit-backface-visibility: hidden;
+//  -moz-backface-visibility: hidden;
+//  -ms-backface-visibility: hidden
+//}
+//
+//abbr,acronym {
+//  border: 0;
+//  font-variant: normal
+//}
+//
+//address,caption,cite,code,dfn,em,optgroup,strong,th,var {
+//  font-style: inherit;
+//  font-weight: inherit
+//}
+//
+//h1,h2,h3,h4,h5,h6 {
+//  font-size: 100%;
+//  font-weight: 400
+//}
+//
+//code,kbd,samp,tt {
+//  font-size: 100%
+//}
+//
+//button,input,optgroup,option,select,textarea {
+//  font-family: inherit;
+//  font-size: inherit;
+//  font-style: inherit;
+//  font-weight: inherit
+//}
+//
+//button,input,select,textarea {
+//  *font-size: 100%
+//}
+//
+//body {
+//  line-height: 1.2
+//}
+//
+//ol,ul {
+//  list-style: none
+//}
+//
+//table {
+//  border-collapse: collapse;
+//  border-spacing: 0
+//}
+//
+//caption,th {
+//  text-align: left
+//}
+//
+//sub,sup {
+//  font-size: 100%;
+//  vertical-align: baseline
+//}
+//
+//del {
+//  text-decoration: line-through
+//}
+//
+//blockquote,q {
+//  quotes: none
+//}
+//
+//blockquote:after,blockquote:before,q:after,q:before {
+//  content: "";
+//  content: none
+//}
+//
+//:link,:visited,ins {
+//  text-decoration: none
+//}
+//
+//:focus {
+//  outline: 0 none
+//}
+//
+//@font-face {
+//  font-family: ErasITC-Bold;
+//  src: url("../assets/fonts/Eras Bold ITC.ttf");
+//  font-weight: 400;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: CenturyGothic;
+//  src: url(../assets/fonts/CenturyGothicStd.otf);
+//  font-weight: 400;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: CenturyGothic-Bold;
+//  src: url(../assets/fonts/CenturyGothicStd-Bold.otf);
+//  font-weight: 400;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: Kristen-ITC;
+//  src: url(../assets/fonts/Kristen-ITC.ttf);
+//  font-weight: 400;
+//  font-style: normal
+//}
+//
+//body,html {
+//  width: 100%;
+//  color: #fff;
+//  background: #000;
+//  overflow-x: hidden
+//}
+//
+//body {
+//  font-size: 12px;
+//  font-family: CenturyGothic,Arial,-apple-system,Noto Sans,Helvetica Neue,Helvetica,Nimbus Sans L,Liberation Sans,PingFang SC,Hiragino Sans GB,Noto Sans CJK SC,Source Han Sans SC,Source Han Sans CN,Microsoft YaHei,Wenquanyi Micro Hei,WenQuanYi Zen Hei,ST Heiti,SimHei,WenQuanYi Zen Hei Sharp,sans-serif!important
+//}
+//
+//#app,.container {
+//  width: 100%;
+//  position: relative;
+//  margin: 0 auto;
+//  min-height: 400px
+//}
+//
+//#app .page_view,.container .page_view {
+//  margin: 0 auto
+//}
