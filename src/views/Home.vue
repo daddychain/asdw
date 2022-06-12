@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    Hello world
+    <button @click="swap">Hello world</button>
   </div>
 </template>
 <script>
@@ -54,6 +54,9 @@ export default {
     }, 1000)
   },
   methods: {
+    swap () {
+      this.$gtag.event('swap', { method: 'gi' })
+    },
     approve () {
       const {contract, symbol_abi} = this.$config
       const _contract = new this.$metaMaSKWeb3.eth.Contract(symbol_abi, contract.symbol_contract)

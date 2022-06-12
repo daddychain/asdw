@@ -11,6 +11,11 @@ import config from './service/index'
 import VueClipboard from 'vue-clipboard2'
 import axios from 'axios'
 import moment from 'moment'
+import VueGtag from "vue-gtag"
+
+Vue.use(VueGtag, {
+  config: { id: 'G-Z4M6MG706Q' }
+})
 
 Vue.prototype.$axios = axios
 Vue.use(VueClipboard)
